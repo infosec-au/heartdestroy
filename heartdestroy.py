@@ -133,9 +133,6 @@ def ssl_check(check_url):
     except Exception as e:
         errorfile.write(str(e) + '\n')
 
-
-
-
 def worker(queue):
     queue_full = True
     while queue_full:
